@@ -1,0 +1,13 @@
+Registro de erros / anotações do projeto
+==========================================
+
+[Exemplo] Erro: a imagem não aparecia no HTML.
+Causa: caminho errado no atributo src (estava "foto1.png" em vez de "img/foto1.png").
+Solução: corrigido o caminho para "img/foto1.png".
+
+[Exemplo] Erro: o botão do contador não respondia ao clique.
+Causa: o script.js estava sendo carregado antes do HTML existir na página.
+Solução: a tag <script src="script.js"></script> foi movida para o final do <body>.
+
+Use este arquivo para anotar problemas reais que você encontrar
+durante o desenvolvimento e como resolveu cada um.

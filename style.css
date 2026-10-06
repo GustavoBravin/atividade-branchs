@@ -95,3 +95,21 @@ footer {
   color: white;
   margin-top: 40px;
 }
+
+/* Modo escuro */
+#btnTema {
+  margin-top: 12px;
+  padding: 8px 16px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+body.dark {
+  background-color: #1e1e2e;
+  color: #eee;
+}
+
+body.dark .card {
+  background: #2a2a3c;
+}

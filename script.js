@@ -14,3 +14,13 @@ botao.addEventListener('click', () => {
 });
 
 console.log('script.js carregado com sucesso.');
+
+// Modo escuro
+const btnTema = document.getElementById('btnTema');
+
+btnTema.addEventListener('click', () => {
+  document.body.classList.toggle('dark');
+  btnTema.textContent = document.body.classList.contains('dark')
+    ? '☀️ Modo claro'
+    : '🌙 Modo escuro';
+});

@@ -5,7 +5,7 @@ const botao = document.getElementById('btnContador');
 const spanContador = document.getElementById('contador');
 
 botao.addEventListener('click', () => {
-  cliques += 2;
+  cliques++;
   spanContador.textContent = cliques;
 
   if (cliques === 5) {

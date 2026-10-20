@@ -31,3 +31,13 @@ btnResetar.addEventListener('click', () => {
   cliques = 0;
   spanContador.textContent = cliques;
 });
+
+const btnTopo = document.getElementById('btnTopo');
+
+window.addEventListener('scroll', () => {
+  btnTopo.style.display = window.scrollY > 200 ? 'block' : 'none';
+});
+
+btnTopo.addEventListener('click', () => {
+  window.scrollTo({ top: 0, behavior: 'smooth' });
+});

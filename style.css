@@ -128,3 +128,16 @@ body.dark {
 body.dark .card {
   background: #2a2a3c;
 }
+
+#btnTopo {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  padding: 10px 14px;
+  background-color: #6366f1;
+  color: white;
+  border: none;
+  border-radius: 50%;
+  cursor: pointer;
+  display: none;
+}

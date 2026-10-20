@@ -24,3 +24,10 @@ btnTema.addEventListener('click', () => {
     ? '☀️ Modo claro'
     : '🌙 Modo escuro';
 });
+
+const btnResetar = document.getElementById('btnResetar');
+
+btnResetar.addEventListener('click', () => {
+  cliques = 0;
+  spanContador.textContent = cliques;
+});

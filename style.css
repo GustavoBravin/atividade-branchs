@@ -56,7 +56,7 @@ h2 {
 }
 
 .card:hover {
-  transform: translateY(50px);
+  transform: translateY(-5px);
 }
 
 .card img {

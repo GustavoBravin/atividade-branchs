@@ -41,3 +41,18 @@ window.addEventListener('scroll', () => {
 btnTopo.addEventListener('click', () => {
   window.scrollTo({ top: 0, behavior: 'smooth' });
 });
+
+// Lista de tarefas
+const inputTarefa = document.getElementById('inputTarefa');
+const btnAdicionar = document.getElementById('btnAdicionar');
+const listaTarefas = document.getElementById('listaTarefas');
+
+btnAdicionar.addEventListener('click', () => {
+  const texto = inputTarefa.value.trim();
+  if (texto === '') return;
+
+  const item = document.createElement('li');
+  item.textContent = texto;
+  listaTarefas.appendChild(item);
+  inputTarefa.value = '';
+});

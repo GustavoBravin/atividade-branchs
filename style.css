@@ -88,6 +88,21 @@ h2 {
   background-color: #4f46e5;
 }
 
+#btnResetar {
+  background-color: #ef4444;
+  color: white;
+  border: none;
+  padding: 12px 24px;
+  font-size: 1rem;
+  border-radius: 6px;
+  cursor: pointer;
+  margin-left: 10px;
+}
+
+#btnResetar:hover {
+  background-color: #dc2626;
+}
+
 footer {
   text-align: center;
   padding: 20px;

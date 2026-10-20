@@ -1,52 +1,59 @@
-<!DOCTYPE html>
-<html lang="pt-br">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Meu Projeto Simplse</title>
-  <link rel="stylesheet" href="style.css">
-</head>
-<body>
+  <!DOCTYPE html>
+  <html lang="pt-br">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu Projeto Simplse</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
 
-  <header>
-    <h1>Meu Projeto Simples</h1>
-    <p>Um site básico feito com HTML, CSS e JavaScript</p>
-    <button id="btnTema">🌙 Modo escuro</button>
-  </header>
+    <header>
+      <h1>Meu Projeto Simples</h1>
+      <p>Um site básico feito com HTML, CSS e JavaScript</p>
+      <button id="btnTema">🌙 Modo escuro</button>
+    </header>
 
-  <main>
-    <section class="galeria">
-      <h2>Galeria de imagens</h2>
-      <div class="cards">
-        <div class="card">
-          <img src="img/foto1.png" alt="Imagem 1 - gradiente roxo">
-          <p>Imagem 1</p>
+    <main>
+      <section class="galeria">
+        <h2>Galeria de imagens</h2>
+        <div class="cards">
+          <div class="card">
+            <img src="img/foto1.png" alt="Imagem 1 - gradiente roxo">
+            <p>Imagem 1</p>
+          </div>
+          <div class="card">
+            <img src="img/foto-2.png" alt="Imagem 2 - gradiente verde e azul">
+            <p>Imagem 2</p>
+          </div>
+          <div class="card">
+            <img src="img/foto3.png" alt="Imagem 3 - gradiente vermelho e laranja">
+            <p>Imagem 3</p>
+          </div>
         </div>
-        <div class="card">
-          <img src="img/foto-2.png" alt="Imagem 2 - gradiente verde e azul">
-          <p>Imagem 2</p>
-        </div>
-        <div class="card">
-          <img src="img/foto3.png" alt="Imagem 3 - gradiente vermelho e laranja">
-          <p>Imagem 3</p>
-        </div>
-      </div>
-    </section>
+      </section>
 
-    <section class="interativo">
-      <h2>Contador</h2>
-      <p>Clique no botão para testar o JavaScript:</p>
-      <button id="btnContador">Cliquei <span id="contador">0</span> vezes</button>
-      <button id="btnResetar">Resetar contador</button>
+      <section class="interativo">
+        <h2>Contador</h2>
+        <p>Clique no botão para testar o JavaScript:</p>
+        <button id="btnContador">Cliquei <span id="contador">0</span> vezes</button>
+        <button id="btnResetar">Resetar contador</button>
+      </section>
+
+      <section class="tarefas">
+        <h2>Lista de tarefas</h2>
+        <input type="text" id="inputTarefa" placeholder="Nova tarefa">
+        <button id="btnAdicionar">Adicionar</button>
+        <ul id="listaTarefas"></ul>
     </section>
   </main>
 
-  <footer>
-    <p>&copy; 2026 Meu Projeto Simples. Feito para praticar Git e GitHub.</p>
-  </footer>
+    <footer>
+      <p>&copy; 2026 Meu Projeto Simples. Feito para praticar Git e GitHub.</p>
+    </footer>
 
-  <button id="btnTopo">↑ Topo</button>
+    <button id="btnTopo">↑ Topo</button>
 
-  <script src="script.js"></script>
-</body>
-</html>
+    <script src="script.js"></script>
+  </body>
+  </html>

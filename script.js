@@ -58,3 +58,13 @@ btnAdicionar.addEventListener('click', () => {
   listaTarefas.appendChild(item);
   inputTarefa.value = '';
 });
+
+// Relógio
+const elementoHora = document.getElementById('hora');
+
+function atualizarHora() {
+  elementoHora.textContent = new Date().toLocaleTimeString('pt-BR');
+}
+
+atualizarHora();
+setInterval(atualizarHora, 1000);

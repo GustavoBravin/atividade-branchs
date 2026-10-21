@@ -174,3 +174,14 @@ body.dark .card {
   cursor: pointer;
   display: none;
 }
+
+/* Relógio */
+.relogio {
+  text-align: center;
+}
+
+#hora {
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: #6366f1;
+}

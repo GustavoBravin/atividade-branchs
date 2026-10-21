@@ -68,3 +68,10 @@ function atualizarHora() {
 
 atualizarHora();
 setInterval(atualizarHora, 1000);
+
+// Zoom na galeria
+document.querySelectorAll('.card img').forEach((img) => {
+  img.addEventListener('click', () => {
+    img.classList.toggle('zoom');
+  });
+});

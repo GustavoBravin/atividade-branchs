@@ -185,3 +185,13 @@ body.dark .card {
   font-weight: bold;
   color: #6366f1;
 }
+
+/* Zoom na galeria */
+.card img {
+  cursor: pointer;
+  transition: transform 0.3s ease;
+}
+
+.card img.zoom {
+  transform: scale(1.15);
+}

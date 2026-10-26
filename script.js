@@ -83,3 +83,10 @@ btnCompartilhar.addEventListener('click', () => {
   navigator.clipboard.writeText(window.location.href);
   alert('Link copiado!');
 });
+
+// Imprimir
+const btnImprimir = document.getElementById('btnImprimir');
+
+btnImprimir.addEventListener('click', () => {
+  window.print();
+});
